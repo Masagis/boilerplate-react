@@ -1,0 +1,18 @@
+.custom-page-handler {
+    button {
+        margin: 0 2px;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        background-color: white;
+        border: 1px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.active {
+            background-color: #ED1B24;
+            color: white;
+        }
+    }
+}

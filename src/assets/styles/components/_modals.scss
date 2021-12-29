@@ -1,0 +1,52 @@
+.modal {
+  .modal-discount {
+    max-width: 80vw !important;
+
+    .modal-content {
+      max-height: 80vh !important;
+      overflow-y: auto;
+    }
+  }
+
+  .modal-toplist {
+    .modal-header {
+      padding: 0px;
+      margin-bottom: 8px;
+      border: none;
+      .modal-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+    .modal-body {
+      padding: 0px;
+
+      .card {
+        border: 1px solid #d5d5d5;
+        font-size: 14px;
+
+        .horizontal-line {
+          width: 100%;
+          height: 1px;
+          background-color: lightgray;
+        }
+      }
+    }
+  }
+
+  .modal-content {
+    border: none !important;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 8px !important;
+    padding: 24px;
+  }
+
+  .modal-border-relative {
+    position: relative;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+  }
+}

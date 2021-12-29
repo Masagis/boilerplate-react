@@ -1,0 +1,63 @@
+.input-search {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.react-datepicker-wrapper {
+  .top-list-picker {
+    width: 120px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 3px 6px;
+    font-size: 14px;
+  }
+}
+
+.date-picker-relative {
+  position: relative;
+
+  .month-picker-suffix {
+    position: absolute;
+    top: 2px;
+    right: 6px;
+  }
+}
+
+.month-range-picker-relative {
+  position: relative;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 3px 6px;
+
+  .react-datepicker-wrapper {
+    input {
+      border: none;
+      width: 80px;
+
+      &:focus-visible {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+
+  .month-picker-suffix {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+  }
+}
+
+.search-top-iphone {
+  padding-left: 0px !important;
+  height: 36px !important;
+  background: white !important;
+}

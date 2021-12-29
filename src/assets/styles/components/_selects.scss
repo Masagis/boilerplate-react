@@ -1,0 +1,24 @@
+select {
+  &:focus-visible {
+    outline: none !important;
+  }
+
+  &.select-on-charts {
+    border: none;
+    background: lightgray;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 12px;
+    min-width: 80px;
+  }
+  &.select-on-filter {
+    border: none;
+    padding: 2px;
+    // font-size: 12px;
+    // min-width: 80px;
+  }
+
+  &.select-limit-pagination {
+    border: none;
+  }
+}

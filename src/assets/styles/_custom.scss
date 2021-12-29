@@ -1,0 +1,57 @@
+.side {
+  width: 100%;
+  &-left {
+    height: 100%;
+    max-width: 666px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 90px;
+    color: white;
+  }
+  &-right {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .bg-1 {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .bg-2 {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+  }
+}
+
+.bg {
+  &-red-dark {
+    background-color: #ae0000 !important;
+  }
+  &-red {
+    background-color: #ed1b24 !important;
+  }
+  &-yellow {
+    background-color: #fed501 !important;
+  }
+  &-green {
+    background-color: #8fcc4f !important;
+  }
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.rad {
+  &-10 {
+    border-radius: 10px;
+  }
+}

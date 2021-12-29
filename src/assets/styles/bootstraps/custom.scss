@@ -1,0 +1,20 @@
+// All custom here is default
+$theme-colors: (
+  // default
+  "secondary": #6c757d,
+  "info": #17a2b8,
+  // customized
+  "primary": #ed1b24,
+  "success": #92d050,
+  "normal": #fad100,
+  "warning": #ff8a00,
+  "danger": #ff0000,
+  "light": #ebeff2,
+  "dark": #373b60,
+  "green": #4cae51,
+  "yellow": #f7d648,
+  "blue": #2084f4
+);
+
+// Import should be placed after customs to override
+@import "../../../../node_modules/bootstrap/scss/bootstrap";

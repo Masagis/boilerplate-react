@@ -1,0 +1,50 @@
+.form-group {
+  margin-bottom: 8px;
+  border-radius: 4px;
+
+  .form-control {
+    &.radio {
+      border: none;
+    }
+  }
+
+  input {
+    border-radius: 4px !important;
+  }
+
+  .input-group-append {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 8px;
+  }
+
+  .input-date-wrapper {
+    position: relative;
+    .react-datepicker-wrapper {
+      display: block !important;
+    }
+    .append-icon {
+      position: absolute;
+      right: 8px;
+      top: 10px;
+    }
+  }
+
+  .upload-frame {
+    width: 160px;
+    height: 160px;
+    border: 2px dashed lightgray;
+    border-radius: 4px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.headbar {
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.06);
+
+  padding: 8px 32px;
+  height: 72px;
+  width: 100vw;
+}

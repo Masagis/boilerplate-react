@@ -1,0 +1,17 @@
+.simple-table {
+  thead {
+    tr {
+      th {
+        color: #707070;
+      }
+    }
+  }
+
+  &.table-striped {
+    tbody {
+      tr:nth-of-type(odd) {
+        background-color: #f9f9f9 !important;
+      }
+    }
+  }
+}
